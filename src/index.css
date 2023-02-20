@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #222;
+}
+
+input[type='range']{
+    cursor: pointer;
+    width: 100%;
+    @apply bg-indigo-800;
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    accent-color: white;
+  
+  }
